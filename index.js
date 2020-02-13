@@ -1,4 +1,3 @@
-
 // imports
 const express = require('express');
 
@@ -20,5 +19,5 @@ server.get("/", (req, res) => {
 })
 
 // start server
-const port = 5000
+const port = process.env.PORT || 5000 // Making the port dynamic
 server.listen(port, () => console.log(`\n** Running on Port ${port}`))

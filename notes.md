@@ -1,5 +1,9 @@
 ## Deployment Notes
-
+- Setup the server
+- Make the port dynamic
+    - const port = process.env.PORT
+        - process and env are both objects
+        - think of them as the computer that is running the program
 
 
 
